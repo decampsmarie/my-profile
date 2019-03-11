@@ -1,74 +1,50 @@
 /* Colors and fonts */
 
-h1
-
-{
-color: #0e55d4;
-font-size: 30px; 
-
+#logo {
+	width:145px;
+	height: 145px; 
+	border-radius: 50%; 
 }
 
-h2
-
-{
-color: #002151;
-font-size: 25px; 
-
+h1 {
+	color: #0e55d4;
+	font-size: 30px; 
 }
 
-h1, h2 
-{
-
-font-family: roboto;
-text-align : center;
-
+h2 {
+	color: #002151;
+	font-size: 25px; 
 }
 
-body 
-
-{
-background: #f6f9fc;
-color : #002151;
-font-family: roboto;
-font-size: 20px; 
+h1, h2  {
+	font-family: roboto;
+	text-align : center;
 }
 
-a
-
-{
-text-decoration: none; 
-color: #7f88a2;
-transition-color: 0.5 ease;
+body  {
+	background: #f6f9fc;
+	color : #002151;
+	font-family: roboto;
+	font-size: 20px; 
 }
 
-a:hover
-{
-text-decoration: none; 
-color: #0e55d4; 
-font-size: 20px; 
+a {
+	text-decoration: none; 
+	color: #7f88a2;
+	transition-color: 0.5 ease;
+}
+
+a:hover {
+	text-decoration: none; 
+	color: #0e55d4; 
+	font-size: 20px; 
 }
 
 /* design with class */
 
-.container
-{
-width: 1040px;
-margin: auto;
-}
-
-@media (max-width: 760px )
-{
-	.container {
-		width: 600px;
-	}
-
-@media (max-width: 500px )
-{
-	.container {
-		width: 400px;
-	}
-
-
+.container {
+	width: 1040px;
+	margin: auto;
 }
 
 .card-white
@@ -125,9 +101,19 @@ color: #0e55d4;
 color: red ;
 }
 
-#logo
+
+
+
+@media (max-width: 760px )
 {
-width:145px;
-height: 145px; 
-border-radius: 50%; 
+	.container {
+		width: 600px;
+	}
+
+@media (max-width: 500px )
+{
+	.container {
+		width: 400px;
+	}
+
 }
